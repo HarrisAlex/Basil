@@ -1,0 +1,1 @@
+posts = '[{"title": "title post 1", "text": "text post 1", "user": "user1", "likes": 0}, {"title": "title post 2", "text": "text post 2", "user": "user2", "likes": 0}]';

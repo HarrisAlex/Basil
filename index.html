@@ -1,1 +1,29 @@
+<html>
+    <head>
+        <title>Basil - Social</title>
+        <link href="styles.css" rel="stylesheet">
 
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/javascript" src="data/posts.json"></script>
+        <script type="text/babel" src="basil-main.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1>Basil</h1>
+            <input type="search" size="40" spellcheck="false" placeholder="search">
+            <ul>
+                <div class="nav-links-container">
+                    <li>Post</li>
+                    <li>Home</li>
+                    <li>Profile</li>
+                </div>
+            </ul>
+        </nav>
+        <div id="posts-container-wrapper">
+
+        </div>
+    </body>
+</html>
