@@ -1,6 +1,6 @@
 <?php
     $postsFile = fopen("data/posts.json", "w");
     echo("WOO");
-    fwrite($postsFile, $_GET["json"]);
+    fwrite($postsFile, $_GET['json']);
     fclose($postsFile);
 ?>

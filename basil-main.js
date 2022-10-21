@@ -5,9 +5,9 @@ function WriteToJSON(file) {
     var xhttp = new XMLHttpRequest();
 
     xhttp.open("GET", "fileWrite.php?json=" + file, true);
-
+    console.log("fileWrite.php?json=" + file);
     xhttp.onload = function () {
-        console.log(this.responseText);
+        console.log(this.responseURL);
     };
 
     xhttp.send();
